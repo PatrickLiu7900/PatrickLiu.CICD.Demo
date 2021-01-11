@@ -19,10 +19,10 @@ namespace PatrickLiu.CICD.Services
         public UserService()
         {
             dataList = new List<User>()
-            { new User {ID=1,Name="黄飞鸿2",Account="HuangFeiHong",Password="HuangFeiHong123456",Email="huangFeiHong@sina.com", Role="Admin", LoginTime=DateTime.Now },
-            new User {ID=2,Name="洪熙官2",Account="HongXiGuan",Password="HongXiGuan54667",Email="HongXiGuan@sina.com", Role="Admin", LoginTime=DateTime.Now.AddDays(-5) },
-            new User {ID=3,Name="方世玉2",Account="FangShiYu",Password="FangShiYu112233",Email="fangShiYu@163.com", Role="Admin", LoginTime=DateTime.Now.AddDays(-30) },
-            new User {ID=4,Name="苗翠花2",Account="MiaoCuiHua",Password="MiaoCuiHua887766",Email="miaoCuiHua@sohu.com", Role="Admin", LoginTime=DateTime.Now.AddDays(-90) },
+            { new User {ID=1,Name="黄飞鸿",Account="HuangFeiHong",Password="HuangFeiHong123456",Email="huangFeiHong@sina.com", Role="Admin", LoginTime=DateTime.Now },
+            new User {ID=2,Name="洪熙官",Account="HongXiGuan",Password="HongXiGuan54667",Email="HongXiGuan@sina.com", Role="Admin", LoginTime=DateTime.Now.AddDays(-5) },
+            new User {ID=3,Name="方世玉",Account="FangShiYu",Password="FangShiYu112233",Email="fangShiYu@163.com", Role="Admin", LoginTime=DateTime.Now.AddDays(-30) },
+            new User {ID=4,Name="苗翠花",Account="MiaoCuiHua",Password="MiaoCuiHua887766",Email="miaoCuiHua@sohu.com", Role="Admin", LoginTime=DateTime.Now.AddDays(-90) },
             new User {ID=5,Name="严咏春2",Account="YanYongChun",Password="YanYongChun09392",Email="yanYongChun@263.com", Role="Admin", LoginTime=DateTime.Now.AddMinutes(-50) }};
         }
 
